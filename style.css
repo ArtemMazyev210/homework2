@@ -1,0 +1,89 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+    margin: 0;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+header {
+    margin: auto;
+    width: 100%;
+    background-color: #ADD8E6;
+    height: 120px;
+    display: flex;
+}
+
+footer {
+    width: 100%;
+    background-color: #ADD8E6;
+    padding: 10px;
+    height: 120px;
+    text-align: center;
+    display: flex;
+}
+
+#logo {
+    float: left;
+    margin: auto;
+    margin-right: 35px;
+    width: 100px;
+    height: 100px;
+}
+
+.name-box,
+.name-site {
+    float: right;
+    margin: auto;
+    margin-left: 0;
+}
+
+.navigation,
+.list,
+.form,
+.table {
+    max-width: 960px;
+    background-color: #ADD8E6;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.navigation-list {
+    width: 100%;
+
+}
+
+.navigation-list,
+.li {
+    font-size: 20px;
+    padding: 0 80px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.even-number {
+    background-color: red;
+}
+
+.odd-number {
+    background-color: green;
+}
+
+.footer-author {
+    margin: auto;
+    font-size: 24px;
+}
