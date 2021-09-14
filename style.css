@@ -43,8 +43,7 @@ footer {
     height: 100px;
 }
 
-.name-box,
-.name-site {
+.name-box {
     float: right;
     margin: auto;
     margin-left: 0;
@@ -80,7 +79,7 @@ footer {
 }
 
 .odd-number {
-    background-color: green;
+    background-color: yellow;
 }
 
 .footer-author {
