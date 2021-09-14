@@ -31,22 +31,20 @@ footer {
     background-color: #ADD8E6;
     padding: 10px;
     height: 120px;
-    text-align: center;
     display: flex;
 }
 
 #logo {
     float: left;
     margin: auto;
-    margin-right: 35px;
+    margin-left: 460px;
     width: 100px;
     height: 100px;
 }
 
 .name-box {
-    float: right;
     margin: auto;
-    margin-left: 0;
+    padding-right: 55%;
 }
 
 .navigation,
