@@ -47,10 +47,7 @@ footer {
     padding-right: 55%;
 }
 
-.navigation,
-.list,
-.form,
-.table {
+.main {
     max-width: 960px;
     background-color: #ADD8E6;
     margin: 0 auto;
@@ -61,7 +58,6 @@ footer {
 
 .navigation-list {
     width: 100%;
-
 }
 
 .navigation-list,
@@ -69,7 +65,7 @@ footer {
     font-size: 20px;
     padding: 0 80px;
     list-style-type: none;
-    display: inline-block;
+    display: flex;
 }
 
 .even-number {
